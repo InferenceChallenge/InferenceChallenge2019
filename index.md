@@ -5,7 +5,7 @@
 If these are your tools, join the challenge and win one of two [Kunbus RevPi Connect](https://revolution.kunbus.com/revpi-connect/) or one of five [Nordic Thingy:52](https://www.nordicsemi.com/?sc_itemid=%7B3C201A33-5CA5-457B-87E4-A7B04C19EE71%7D)
 
 ![Kunbus RevPi Connect](https://revolution.kunbus.de/wp-content/uploads/2018/07/RevPi-Core-Tutorial.png)
-![Nordic Thingy:52](https://www.espruino.com/refimages/Thingy52_board.jpg)
+![Nordic Thingy:52](https://www.mouser.com/images/marketingid/2017/img/116326113_Nordic_Thiny52IoTSensorDevelopmentKit.png)
 
 ## Task
 
