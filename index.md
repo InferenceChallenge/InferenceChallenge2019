@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+## MCL Embedded Inference Challenge 2019
 
-You can use the [editor on GitHub](https://github.com/InferenceChallenge/InferenceChallenge2019/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+> PyTorch, ONNX, LLVM, Neo, Bonseyes, Caffe, MLIR, TVM, XLA
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+If these are your tools, join the challenge and win one of two [Kunbus Rev Pi Connect](https://revolution.kunbus.com/revpi-connect/) or one of five [Nordic Thingy:52](https://www.nordicsemi.com/?sc_itemid=%7B3C201A33-5CA5-457B-87E4-A7B04C19EE71%7D)
 
-### Markdown
+## Task
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Pick an LSTM-based model from the list on [paperswithcode.com](https://paperswithcode.com/sota/language-modelling-on-penn-treebank-word). Train on [Penn Treebank dataset](https://www.tensorflow.org/tutorials/sequences/recurrent) (or as you like, as long as test perplexity is smaller than 80).
+- Optimise, transform, quantise the model as you deem suitable (as long as perplexity stays below 80)
+- Generate a self-contained binary implementing inference on the test data set for either Rev Pi (ARM Cortex A53 (ARMv8)) or Thingy (ARM Cortex-M4F (ARMv7-M)). Keep test data set in plain text.
+ - Send the binary, the output of `readelf-h -S binary`, a short document, describing your approach and tools used (max 4 pages, pdf format) to [InferenceChallenge@mcl.at](mailto:InferenceChallenge@mcl.at) Deadline: 31.5.2019
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/InferenceChallenge/InferenceChallenge2019/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+We will rank the entries by size of the .data section. The top seven will receive a KunbusRev Pi Connect or Nordic Thingy:52. 
