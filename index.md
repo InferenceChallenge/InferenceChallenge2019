@@ -9,7 +9,7 @@ If these are your tools, join the challenge and win one of two [Kunbus RevPi Con
 
 ## Task
 
-- Pick an LSTM-based model from the list on [paperswithcode.com](https://paperswithcode.com/sota/language-modelling-on-penn-treebank-word). Train on [Penn Treebank dataset](https://www.tensorflow.org/tutorials/sequences/recurrent) (or as you like, as long as test perplexity is smaller than 80).
+- Pick an LSTM-based model - e.g. from the list on [paperswithcode.com](https://paperswithcode.com/sota/language-modelling-on-penn-treebank-word). Train on [Penn Treebank dataset](https://www.tensorflow.org/tutorials/sequences/recurrent). The test perplexity should be smaller than 80.
 - Optimise, transform, quantise the model as you deem suitable (as long as perplexity stays below 80)
 - Generate a self-contained binary implementing inference on the test data set for the RevPi (ARM Cortex A53 (ARMv8)). Keep test data set in plain text.
  - Send the binary, the output of `readelf -h -S binary`, a short document, describing your approach and tools used (max 4 pages, pdf format) to [InferenceChallenge@mcl.at](mailto:InferenceChallenge@mcl.at) Deadline: 31.6.2019 (extended!)
